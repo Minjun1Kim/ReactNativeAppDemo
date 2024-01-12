@@ -9,15 +9,15 @@ React Native is a framework for building native apps for IOS/Android using JavaS
 There are two ways of building a React Native app: Expo CLI and React Native CLI.
 We will be using Expo CLI for simplicity and ease of use.
 
-<a id="notes"></a>
+<a id="pre"></a>
 ### <span style="color:#ADD8E6"> Prerequisites </span> 
 1. Make sure you have Node.js installed.
 You can install from the official website: https://nodejs.org/en/download/
 2. An IDE. We will use VS Code.
 3. Expo Go installed on your mobile device. Available both on IOS and Android: https://expo.dev/client
 
-<a id="notes"></a>
-### <span style="color:#ADD8E6">Step 2: Setting up the new app </span> 
+<a id="step1"></a>
+### <span style="color:#ADD8E6">Step 1: Setting up the new app </span> 
 Open a terminal in VS Code and install Expo CLI with the following command:
 ```shell
 npm install -g expo-cli
@@ -55,8 +55,8 @@ expo-cli start --tunnel
 ```
 which globally installs the expo client in our application.
 
-<a id="step3"></a>
-### <span style="color:#ADD8E6">Step 3: Designing the App </span> 
+<a id="step2"></a>
+### <span style="color:#ADD8E6">Step 2: Designing the App </span> 
 
 In App.js, change the text inside `<Text> ... </Text>` then save the file or reload the app. You should see the change on your device.
 
@@ -281,5 +281,17 @@ This concludes our basic implementation of `Counter.js` component.
 
 The code is available in the GitHub Repo: 
 
+<a id="step3"></a>
+### <span style="color:#ADD8E6">Step 3: Creating your own app </span> 
 
-Now it's your turn to make your own app!
+Now it's your turn to make your own app! It can be basic, we're not expecting much!
+You are to use a functional component, `useState` hook, `prop`, `map()` function, and at least 3 different React Native components or apis.
+
+Here are some examples:
+- To-Do List
+- Image Gallery
+- Calculator
+
+and others.
+
+Submit your GitHub repository link to Quercus.

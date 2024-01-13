@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
 import { v4 as uuidv4 } from 'uuid';
+import AddCounterForm from './AddCounterForm';
 
 const Counter = ({ initialValues }) => {
   const [counters, setCounters] = useState(initialValues.map((value) => ({ id: uuidv4(), count: value })));
@@ -21,6 +22,11 @@ const Counter = ({ initialValues }) => {
     );
   };
 
+  const addCounter = (initialValue) => {
+    const newCounter = { id: uuidv4(), count: initialValue };
+    setCounters((prevCounters) => [...prevCounters, newCounter]);
+  };
+
   return (
     <View style={styles.container}>
       {counters.map((counter) => (
@@ -32,6 +38,7 @@ const Counter = ({ initialValues }) => {
           </View>
         </View>
       ))}
+      <AddCounterForm onAddCounter={addCounter} />
     </View>
   );
 };

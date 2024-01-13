@@ -273,13 +273,16 @@ const decrement = (id) => {
 
 The `decrement` function is implemented almost the same way, except we subtract 1 from `counter.count`.
 
-This concludes our basic implementation of `Counter.js` component.
-
-<div style="text-align:center">
-  <img src="replay.gif" width="30%" height="30%" />
+<div style="display: flex; justify-content: center;">
+  <img src="./images/replay.gif" width="30%" height="30%" />
 </div>
 
-The code is available in the GitHub Repo.
+
+
+
+<div style="display: flex; justify-content: center;">
+  <img src="./images/replayFinal.gif" width="30%" height="30%" />
+</div>
 
 
 Submit your GitHub repository link to Quercus.

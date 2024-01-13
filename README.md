@@ -35,13 +35,13 @@ Once complete, run the following command to start the server:
 npm start
 ```
 
-![Alt text](image-3.png)
+![Alt text](./images/image-3.png)
 It should create a QR code that you can scan with your phone.
 Make sure your phone is connected to the same network as your computer. 
 
 
 <div style="text-align:center">
-  <img src="image-1.png" width="30%" height="30%" />
+  <img src="./images/image-1.png" width="30%" height="30%" />
 
   <p>
   This is what you should see on your phone.
@@ -227,7 +227,7 @@ We also updated the `styles` object to include stlying for text and buttonContai
 The `flexDirection: 'row'` makes the buttons go side by side horizontally.
 
 <div style="text-align:center">
-  <img src="image-2.png" width="30%" height="30%" />
+  <img src="./images/image-2.png" width="30%" height="30%" />
 
   <p>
   This is what our App should look like at this stage:
@@ -279,19 +279,7 @@ This concludes our basic implementation of `Counter.js` component.
   <img src="replay.gif" width="30%" height="30%" />
 </div>
 
-The code is available in the GitHub Repo: 
+The code is available in the GitHub Repo.
 
-<a id="step3"></a>
-### <span style="color:#ADD8E6">Step 3: Creating your own app </span> 
-
-Now it's your turn to make your own app! It can be basic, we're not expecting much!
-You are to use a functional component, `useState` hook, `prop`, `map()` function, and at least 3 different React Native components or apis.
-
-Here are some examples:
-- To-Do List
-- Image Gallery
-- Calculator
-
-and others.
 
 Submit your GitHub repository link to Quercus.

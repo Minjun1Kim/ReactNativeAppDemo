@@ -23,6 +23,8 @@ We will be using Expo CLI for simplicity and ease of use.
 
 Please refer to React Native documentation for its Core Components and APIs: https://reactnative.dev/docs/components-and-apis
 
+If there are any issues or inaccuracies, please contribute by raising issues, making pull requests, or asking on Piazza. Thanks!
+
 <a id="pre"></a>
 ### <span style="color:#ADD8E6"> Prerequisites </span> 
 1. Make sure you have Node.js installed.

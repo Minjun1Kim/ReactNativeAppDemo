@@ -8,6 +8,7 @@
   - [Designing the App](#design)
     - [`Counter.js`](#counter)
     - [`AddCounterForm.js`](#add)
+    - [`App.js`](#app)
   - [Your Task](#task)
 
 <a id="desc"></a>
@@ -505,6 +506,35 @@ const styles = StyleSheet.create({
 
 export default AddCounterForm;
 ```
+
+<a id="app"></a>
+#### <span style="color:#ADD8E6"> App.js </span> 
+Finally, this is our App.js:
+
+```jsx
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, View } from 'react-native';
+import Counter from './components/Counter';
+
+export default function App() {
+  return (
+    <View style={styles.container}>
+        <Counter initialValues={[5, 10, 15]} />
+        <StatusBar style="auto" />
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
+```
+We render the `Counter` component with `[5, 10, 15]` as the prop (3 counters with initial values 5, 10, 15). <br/>
 
 <p align="center">
   <img src="./images/replayFinal.gif" width="30%" height="30%" />

@@ -459,9 +459,10 @@ const handleAddCounter = () => {
 };
 ```
 
-Using the `onAddCounter` method prop, we update the `initialValue` of the counter by passing it in as a parameter. We also convert the String input value to a number using the built-in method. Afterwards, we set the `initialValue` to empty for future use.
+Using the `onAddCounter` method prop, we update the `initialValue` of the counter by passing it in as a parameter if the input (stripped of white spaces) is not empty. We also convert the String input value to a number using the built-in method. Afterwards, we set the `initialValue` to empty for future use.
 
 Adding styles to the components, this is what our source code looks like:
+
 ```jsx
 import React, { useState } from 'react';
 import { View, TextInput, Button, StyleSheet } from 'react-native';

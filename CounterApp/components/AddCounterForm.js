@@ -1,6 +1,5 @@
-// AddCounterForm.js
 import React, { useState } from 'react';
-import { View, TextInput, Button, StyleSheet, Keyboard } from 'react-native';
+import { View, TextInput, Button, StyleSheet } from 'react-native';
 
 const AddCounterForm = ({ onAddCounter }) => {
   const [initialValue, setInitialValue] = useState('');
@@ -9,8 +8,6 @@ const AddCounterForm = ({ onAddCounter }) => {
     if (initialValue.trim() !== '') {
       onAddCounter(Number(initialValue));
       setInitialValue('');
-
-      Keyboard.dismiss();
     }
   };
 

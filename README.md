@@ -49,17 +49,18 @@ npm start
 ```
 
 ![Alt text](./images/image-3.png)
+
 It should create a QR code that you can scan with your phone.
 Make sure your phone is connected to the same network as your computer. 
 
 
-<div style="text-align:center">
+<p align="center">
   <img src="./images/image-1.png" width="30%" height="30%" />
 
-  <p>
+  <p align="center">
   This is what you should see on your phone.
   </p>
-</div>
+</p>
 In case you face a loading problem, run the following commands:
 
 ```shell
@@ -242,13 +243,13 @@ The onPress prop is used to specify the functions `increment` and `decrement` to
 We also updated the `styles` object to include stlying for text and buttonContainer.
 The `flexDirection: 'row'` makes the buttons go side by side horizontally.
 
-<div style="text-align:center">
+<p align="center">
   <img src="./images/image-2.png" width="30%" height="30%" />
 
-  <p>
+  <p align="center">
   This is what our App should look like at this stage:
   </p>
-</div>
+</p>
 
 Additionally, we include the following lines of code to set the default value of our prop if it's not explicitly provided.
 

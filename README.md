@@ -597,6 +597,15 @@ import { v4 as uuidv4 } from 'uuid';
 Unfortunately, ExpoGo does not work on UofT wifi due to the proxy settings.
 Please try it outside of UofT with your computer and device connected to the same network.
 
+Please test with the simulators if you can't work with the ExpoGo:
+https://docs.expo.dev/workflow/ios-simulator/
+https://docs.expo.dev/workflow/android-studio-emulator/
+
+
+
+
+
+
 
 
 

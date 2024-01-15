@@ -84,6 +84,14 @@ We will create a simple counter app.
 
 Begin by creating a functional component `Counter.js`. In the root directory, make a sub directory called 'components'. `Counter.js` will be inside `components`.
 
+Make sure you install the following packages on your terminal:
+
+```shell
+npm install react
+npm install react-native
+npm install uuid
+```
+
 ```jsx
 
 import React, { useState } from 'react';

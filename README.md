@@ -73,6 +73,18 @@ expo-cli start --tunnel
 ```
 which globally installs the expo client in our application.
 
+
+Note: UofT network blocks the live-previewing on ExpoGo.
+To test on the web, please run the following commands:
+
+```shell
+npx expo install react-dom react-native-web @expo/webpack-config
+npx expo start --web
+```
+
+For more information, check: https://docs.expo.dev/workflow/web/
+
+
 <a id="design"></a>
 ### <span style="color:#ADD8E6">Designing the App </span> 
 
@@ -595,13 +607,21 @@ import { v4 as uuidv4 } from 'uuid';
 ```
 
 Unfortunately, ExpoGo does not work on UofT wifi due to the proxy settings.
-Please try it outside of UofT with your computer and device connected to the same network.
+
+To test on the web, please run the following commands:
+
+```shell
+npx expo install react-dom react-native-web @expo/webpack-config
+npx expo start --web
+```
+
+For more information, check: https://docs.expo.dev/workflow/web/
+
+Alternatively, you can try it outside of UofT with your computer and device connected to the same network.
 
 Please test with the simulators if you can't work with the ExpoGo:
 https://docs.expo.dev/workflow/ios-simulator/
 https://docs.expo.dev/workflow/android-studio-emulator/
-
-
 
 
 

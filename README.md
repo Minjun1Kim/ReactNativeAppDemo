@@ -10,6 +10,7 @@
     - [`AddCounterForm.js`](#add)
     - [`App.js`](#app)
   - [Your Task](#task)
+  - [Common Problems](#problems)
 
 <a id="desc"></a>
 ### <span style="color:#ADD8E6"> Description </span> 
@@ -91,6 +92,8 @@ npm install react
 npm install react-native
 npm install uuid
 ```
+
+For issues with uuid on Android, please check the common problems section: [Common Problems](#problems)
 
 ```jsx
 
@@ -570,3 +573,31 @@ We render the `Counter` component with `[5, 10, 15]` as the prop (3 counters wit
     The final product should look something like this.
   </p>
 </p>
+
+
+<a id="problems"></a>
+### <span style="color:#ADD8E6"> Common Problems </span> 
+Here are the common problems raised in the `issues` tab.
+
+For problems with uuidv4 on Android, please check the following solution:
+https://github.com/Minjun1Kim/ReactNativeAppDemo/issues/1#issuecomment-1892781115
+https://stackoverflow.com/questions/61169746/crypto-getrandomvalues-not-supported
+
+Install the following package:
+```shell
+npm install react-native-get-random-values
+```
+
+You need to import the following:
+```jsx
+import 'react-native-get-random-values'
+import { v4 as uuidv4 } from 'uuid';
+```
+
+
+
+
+
+
+
+

@@ -221,6 +221,7 @@ Now in Counter.js, we add the following code to display the Counters.
 
 import React, { useState } from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
+import { v4 as uuidv4 } from 'uuid';
 
 const Counter = ({ initialValues }) => {
   const [counters, setCounters] = useState(initialValues.map((value) => ({ id: uuidv4(), count: value })));

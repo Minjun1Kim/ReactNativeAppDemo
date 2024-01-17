@@ -592,7 +592,7 @@ We render the `Counter` component with `[5, 10, 15]` as the prop (3 counters wit
 ### <span style="color:#ADD8E6"> Common Problems </span> 
 Here are the common problems raised in the `issues` tab.
 
-For problems with uuidv4 on Android, please check the following solution:
+1. For problems with uuidv4 on Android, please check the following solution:
 https://github.com/Minjun1Kim/ReactNativeAppDemo/issues/1#issuecomment-1892781115
 https://stackoverflow.com/questions/61169746/crypto-getrandomvalues-not-supported
 
@@ -607,7 +607,7 @@ import 'react-native-get-random-values'
 import { v4 as uuidv4 } from 'uuid';
 ```
 
-Unfortunately, ExpoGo does not work on UofT wifi due to the proxy settings.
+2. Unfortunately, ExpoGo does not work on UofT wifi due to the proxy settings.
 
 To test on the web, please run the following commands:
 
@@ -625,7 +625,7 @@ https://docs.expo.dev/workflow/ios-simulator/
 https://docs.expo.dev/workflow/android-studio-emulator/
 
 
-You might not have admin/root access or privileges:
+3. You might not have admin/root access or privileges:
 
 run the command with 'sudo' on Mac/Linux or on Windows, open terminal as an admin:
 

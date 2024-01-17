@@ -625,6 +625,16 @@ https://docs.expo.dev/workflow/ios-simulator/
 https://docs.expo.dev/workflow/android-studio-emulator/
 
 
+You might not have admin/root access or privileges:
+
+run the command with 'sudo' on Mac/Linux or on Windows, open terminal as an admin:
+
+Example:
+```shell
+sudo npm install -g expo-cli
+```
+
+
 
 
 
